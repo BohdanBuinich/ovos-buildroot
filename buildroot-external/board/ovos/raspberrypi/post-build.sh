@@ -67,7 +67,7 @@ main() {
 		case "${arg}" in
 			--rpi3) handle_raspberry_pi "rpi3" ;;
 			--rpi4) handle_raspberry_pi "rpi4" ;;
-			# --rpi5) handle_raspberry_pi "rpi5" ;;
+			--rpi5) handle_raspberry_pi "rpi5" ;;
 		esac
 	done
 
